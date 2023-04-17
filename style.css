@@ -1,0 +1,63 @@
+/* style.css */
+
+/* Reset default form styles */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for form elements */
+form#myForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Form labels */
+form#myForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Form input fields */
+form#myForm input[type="text"],
+form#myForm select,
+form#myForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Form textarea */
+form#myForm textarea {
+  resize: vertical;
+}
+
+/* Form buttons */
+form#myForm button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: steelblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Form buttons:hover */
+form#myForm button:hover {
+  background-color: steelblue;
+}
+
+/* Container for displaying data */
+#data {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #d3d3d3;
+}
